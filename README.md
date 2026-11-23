@@ -107,3 +107,9 @@ python-sat. It uses symmetry breaking, a fence split (gates per depth level) and
 Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py) (monotone, fence split, all 46 fences):
 UNSAT in 29 s, so every monotone fan-in-two circuit for the edge function of the wheel with five
 spokes has at least 9 gates. Log: [`tools/r619_8_mono.txt`](tools/r619_8_mono.txt).
+
+## L-meta-618: no 8-gate monotone circuit for the triangular prism
+
+Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py) on edges 01 12 02 34 45 35 03 14 25
+(monotone, fence split, all 46 fences): UNSAT in 10 s, so every monotone fan-in-two circuit for the edge
+function of the triangular prism has at least 9 gates.
