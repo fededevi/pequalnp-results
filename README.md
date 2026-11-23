@@ -63,11 +63,14 @@ Notes in [`L-gct-210/theory/NOTES.md`](L-gct-210/theory/NOTES.md) and
   - pencils of quadrics
   - the literature
 
-## L-gct-179: a 7-dimensional 4 × 5 level space? (search, in progress)
+## L-gct-179: a 7-dimensional 4 × 5 level space? (search: none found)
 
 Notes in [`L-gct-179/NOTES.md`](L-gct-179/NOTES.md): a Fourier-graded analysis, exact constraints on the
-graded cases, numerical searches (random, masked, symmetric, grown from 6-dimensional solutions). So far
-no 7-dimensional space; random 6-dimensional solutions found in abundance.
+graded cases, numerical searches (random, masked, symmetric, grown from 6-dimensional solutions). No
+7-dimensional space in about 1,600 numerical starts. The best cost was 0.24, against 0 for a witness, while
+6-dimensional solutions appear from about 30% of random starts. Exact facts: C^4 ⊗ (1, ζ, …, ζ⁴) is a
+4-dimensional level space (ζ a primitive fifth root of unity), and a graded 7-dimensional space must fall
+under one of six frequency profiles, all infeasible numerically. Evidence, not proof, that the maximum is 6.
 
 ## Proofs written
 

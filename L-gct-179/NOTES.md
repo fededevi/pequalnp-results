@@ -27,3 +27,14 @@ The d=6 random solutions have gradient matrix rank 14 up to a small sv (~1e-6, s
 cost drops), i.e. possibly a 1-dim first-order extension, but no second-order one found.
 symsearch.py: L invariant under one (row perm, col perm) element, eigenspace dims sampled (sym7.log).
 rmask.py: random support masks (11-17 entries), d=7 (rmask_*.log).
+
+## Final status (end of ~2h budget): NO witness for d = 7
+- Random unrestricted LM d=7: 788 starts (d7_*.log), best cost 0.24.
+- Graded (column-frequency) d=7: all 6 admissible cases x 30 starts, best ~2e3 (infeasible).
+- symsearch (one (row perm, col perm) symmetry, 34 conjugacy pairs x 8 eigen-compositions x 2): best 1.09.
+- Random support masks 11-17 entries (729 masks x 2 starts): best 1.83. Row/col-block masks: best 2.3.
+- Fixed sub-ansatz: L containing a full sum-zero row (rowfix.py): best 12.9; L containing C^4 (x) w
+  (wfix.py): best 7.4e3.
+- Growth from d=6 solutions (grow7.py): best 0.47.
+Numerical evidence suggests 6 may be the maximum over C as well (consistent with the routes2
+conjecture d(m,5) = m+2), but LM non-convergence does not prove non-existence. No Lean file written.
