@@ -120,3 +120,9 @@ Graph: two vertices joined by paths of one, two and five edges (edges 01 02 21 0
 Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py), NOT gates allowed (fan-in two, every gate
 counted), fence split over all 182 fences: UNSAT in 46 minutes. So every such circuit has at least 11
 gates, matching the fleet's count (8 edges + cover number 4 − 1). Log: [`tools/r595_10.txt`](tools/r595_10.txt).
+
+## L-meta-617: no 10-gate monotone circuit for the 3-cube
+
+Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py) on the 3-cube (edges 01 02 04 13 15 23 26 37
+45 46 57 67; 8 inputs), monotone, fence split over all 182 fences: UNSAT in 153 s. So every monotone
+fan-in-two circuit for its edge function has at least 11 gates, matching the fleet's paper count.
