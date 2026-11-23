@@ -1,0 +1,47 @@
+fences 364
+[18/364 20s] (4, 4, 2, 1): 12 sols, 0 witnesses, 13s
+[22/364 30s] (4, 4, 1, 1, 1): 30 sols, 0 witnesses, 21s
+[31/364 66s] (4, 2, 2, 2, 1): 2 sols, 0 witnesses, 43s
+[42/364 106s] (4, 3, 2, 1, 1): 100 sols, 0 witnesses, 96s
+[45/364 132s] (4, 3, 1, 1, 1, 1): 44 sols, 0 witnesses, 112s
+[46/364 158s] (4, 2, 1, 1, 1, 1, 1): 0 sols, 0 witnesses, 118s
+[48/364 180s] (3, 4, 2, 1, 1): 0 sols, 0 witnesses, 86s
+[50/364 181s] (3, 3, 3, 1, 1): 0 sols, 0 witnesses, 75s
+[52/364 191s] (4, 2, 2, 1, 1, 1): 6 sols, 0 witnesses, 164s
+[53/364 215s] (3, 3, 1, 2, 1, 1): 0 sols, 0 witnesses, 83s
+[57/364 304s] (3, 3, 2, 2, 1): 0 sols, 0 witnesses, 197s
+[58/364 307s] (3, 2, 1, 2, 2, 1): 2 sols, 0 witnesses, 74s
+[60/364 383s] (3, 2, 3, 1, 1, 1): 0 sols, 0 witnesses, 202s
+[66/364 447s] (3, 3, 1, 1, 1, 1, 1): 0 sols, 0 witnesses, 287s
+[67/364 464s] (3, 3, 2, 1, 1, 1): 0 sols, 0 witnesses, 340s
+[68/364 464s] (3, 2, 1, 1, 2, 1, 1): 0 sols, 0 witnesses, 160s
+[70/364 486s] (3, 2, 2, 1, 1, 1, 1): 8 sols, 0 witnesses, 271s
+[74/364 525s] (3, 1, 2, 1, 2, 1, 1): 0 sols, 0 witnesses, 60s
+[76/364 534s] (3, 2, 2, 2, 1, 1): 8 sols, 0 witnesses, 344s
+[77/364 539s] (3, 2, 1, 2, 1, 1, 1): 6 sols, 0 witnesses, 292s
+[80/364 547s] (3, 1, 2, 2, 2, 1): 0 sols, 0 witnesses, 100s
+[81/364 557s] (3, 1, 2, 2, 1, 1, 1): 0 sols, 0 witnesses, 93s
+[83/364 602s] (3, 1, 1, 1, 2, 2, 1): 0 sols, 0 witnesses, 63s
+[89/364 629s] (3, 1, 1, 1, 2, 1, 1, 1): 0 sols, 0 witnesses, 85s
+[90/364 630s] (3, 1, 1, 1, 1, 2, 1, 1): 0 sols, 0 witnesses, 83s
+[93/364 660s] (3, 1, 1, 2, 2, 1, 1): 0 sols, 0 witnesses, 135s
+[94/364 661s] (3, 1, 1, 2, 1, 1, 1, 1): 0 sols, 0 witnesses, 127s
+[98/364 668s] (3, 1, 2, 1, 1, 1, 1, 1): 0 sols, 0 witnesses, 182s
+[99/364 683s] (3, 2, 1, 1, 1, 1, 1, 1): 0 sols, 0 witnesses, 328s
+[102/364 705s] (2, 4, 2, 1, 1, 1): 0 sols, 0 witnesses, 75s
+[104/364 719s] (3, 1, 1, 1, 1, 1, 1, 1, 1): 0 sols, 0 witnesses, 125s
+[109/364 801s] (2, 3, 1, 1, 2, 1, 1): 0 sols, 0 witnesses, 91s
+[110/364 809s] (2, 3, 3, 2, 1): 0 sols, 0 witnesses, 147s
+[112/364 856s] (2, 3, 1, 2, 1, 1, 1): 0 sols, 0 witnesses, 151s
+[113/364 910s] (2, 2, 2, 3, 1, 1): 0 sols, 0 witnesses, 84s
+[114/364 922s] (2, 3, 3, 1, 1, 1): 0 sols, 0 witnesses, 259s
+[115/364 937s] (2, 3, 1, 1, 1, 1, 1, 1): 0 sols, 0 witnesses, 182s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=28856, pipe_handle=1056)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect
