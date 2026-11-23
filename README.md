@@ -101,3 +101,9 @@ iteration, pairing, constants, clocks) as one file.
 [`tools/circsat2.py`](tools/circsat2.py) is exact synthesis of small AND/OR(/NOT) circuits with
 python-sat. It uses symmetry breaking, a fence split (gates per depth level) and solution enumeration.
 `tools/circsat.py` is the first, plain encoding.
+
+## L-meta-619: no 8-gate monotone circuit for the 5-spoke wheel
+
+Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py) (monotone, fence split, all 46 fences):
+UNSAT in 29 s, so every monotone fan-in-two circuit for the edge function of the wheel with five
+spokes has at least 9 gates. Log: [`tools/r619_8_mono.txt`](tools/r619_8_mono.txt).

@@ -1,0 +1,2 @@
+graph=0-1,1-2,2-3,3-4,4-0,0-5,1-5,2-5,3-5,4-5 N=6 G=8 mono=True solver=Cadical195 fences=46 workers=4
+UNSAT 28.9s (all 46 fences)
