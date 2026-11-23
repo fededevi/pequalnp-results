@@ -113,3 +113,10 @@ spokes has at least 9 gates. Log: [`tools/r619_8_mono.txt`](tools/r619_8_mono.tx
 Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py) on edges 01 12 02 34 45 35 03 14 25
 (monotone, fence split, all 46 fences): UNSAT in 10 s, so every monotone fan-in-two circuit for the edge
 function of the triangular prism has at least 9 gates.
+
+## L-meta-595: no 10-gate AND/OR/NOT circuit (the predicted 11 holds)
+
+Graph: two vertices joined by paths of one, two and five edges (edges 01 02 21 03 34 45 56 61; 7 inputs).
+Exhaustive search with [`tools/circsat2.py`](tools/circsat2.py), NOT gates allowed (fan-in two, every gate
+counted), fence split over all 182 fences: UNSAT in 46 minutes. So every such circuit has at least 11
+gates, matching the fleet's count (8 edges + cover number 4 − 1). Log: [`tools/r595_10.txt`](tools/r595_10.txt).
